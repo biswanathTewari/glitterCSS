@@ -1,20 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css";
 
 @import "./image.css";
 @import "./avatar.css";
-/* reset CSS */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-  font-family: "Poppins", sans-serif;
-  font-size: 62.5%;
-}
-
-body {
-  color: black;
-}
+@import "./alert.css";
 
 :root {
   --primary-color: #2405f2;

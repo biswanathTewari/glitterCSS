@@ -1,0 +1,15 @@
+@import "./components/styles.css";
+
+/* reset CSS  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  color: black;
+}
