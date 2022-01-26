@@ -2,31 +2,31 @@
   border-radius: 50%;
 }
 
-.avatar--large {
+.avatar-large {
   width: 12rem;
   height: 12rem;
   font-size: 3rem;
 }
 
-.avatar--medium {
+.avatar-medium {
   width: 7rem;
   height: 7rem;
   font-size: 2rem;
 }
 
-.avatar--small {
+.avatar-small {
   width: 5rem;
   height: 5rem;
   font-size: 1rem;
 }
 
-.avatar--xsmall {
+.avatar-xsmall {
   width: 3rem;
   height: 3rem;
   font-size: 0.5rem;
 }
 
-.avatar--text {
+.avatar-text {
   background-color: orange;
   display: flex;
   justify-content: center;
