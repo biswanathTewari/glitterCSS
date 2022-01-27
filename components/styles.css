@@ -20,7 +20,9 @@
   --text-color-dark: #282938;
 
   --button-color: #fcd980;
-  --button-color-light: #fde4a6;
-  --button-color-dark: #535460;
+  --button-color-light: #f6eac9;
+  --button-color-dark: #eaeaf0;
   --button-color-darker: #282938;
+  --button-color-hover: #f8e1a0;
+  --button-color-darker-hover: #444657;
 }
