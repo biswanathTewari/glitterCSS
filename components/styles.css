@@ -7,6 +7,7 @@
 @import "./badge.css";
 @import "./icon.css";
 @import "./button.css";
+@import "./cards.css";
 
 :root {
   --primary-color: #2405f2;
@@ -17,7 +18,7 @@
   --secondary-color-dark: #eef4fa;
 
   --text-color: white;
-  --text-color-dark: #282938;
+  --text-color-dark: #90919a;
 
   --button-color: #fcd980;
   --button-color-light: #f6eac9;
