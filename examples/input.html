@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div
+      style="
+        /* display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap; */
+      "
+    >
+      <label for="email" class="form-label form-label-required">Email</label>
+      <input
+        id="email"
+        type="email"
+        class="form-field"
+        placeholder="name@example.com"
+        required
+      />
+
+      <label for="messgae" class="form-label form-label-required"
+        >Message</label
+      >
+      <textarea
+        id="message"
+        class="form-textbox"
+        placeholder="Tell us about your project"
+        rows="3"
+      ></textarea>
+
+      <label for="email" class="form-label form-label-required">Email</label>
+      <input
+        id="email"
+        type="email"
+        class="form-field form-error"
+        placeholder="name@example.com"
+        required
+      />
+      <p class="form-error-text">This field is required.</p>
+    </div>
+  </body>
+</html>

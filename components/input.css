@@ -1,0 +1,53 @@
+.form-label {
+  display: block;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 2rem;
+  margin-bottom: 0.5em;
+}
+
+.form-label-required::after {
+  content: " *";
+  color: red;
+}
+
+.form-field {
+  display: block;
+  width: 28rem;
+  height: 4rem;
+  padding: 1.25rem 2rem;
+  border-color: #0000001f;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  outline: none;
+}
+
+.form-field:focus {
+  border-color: var(--primary-color);
+}
+
+.form-textbox {
+  width: 57rem;
+  height: 8.7rem;
+  padding: 1.25rem 2rem;
+  border-color: #0000001f;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  outline: none;
+}
+
+.form-textbox:focus {
+  border-color: var(--primary-color);
+}
+
+.form-error {
+  border-color: red;
+}
+
+.form-error-text {
+  color: red;
+  font-size: 1rem;
+  margin: 1rem 2rem;
+}
