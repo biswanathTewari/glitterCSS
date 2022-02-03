@@ -9,9 +9,10 @@
 @import "./button.css";
 @import "./cards.css";
 @import "./input.css";
+@import "./navbar.css";
 
 :root {
-  --primary-color: #2405f2;
+  --primary-color: #1c1e53;
   --primary-color-light: #1c1e53;
   --primary-color-dark: #282938;
 
