@@ -10,10 +10,9 @@
   color: var(--text-color);
 }
 
-.navbar a {
+.logo {
   text-decoration: none;
   color: var(--text-color);
-  cursor: pointer;
 }
 
 .nav-links {
@@ -26,12 +25,14 @@
   list-style: none;
 }
 
-.nav-links > li > a {
+.nav-link {
+  text-decoration: none;
   color: var(--text-color-dark);
   font-size: 1rem;
+  cursor: pointer;
 }
 
-.nav-links > li > a:hover {
+.nav-link:hover {
   color: var(--text-color);
 }
 
