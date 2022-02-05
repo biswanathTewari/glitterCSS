@@ -10,6 +10,7 @@
 @import "./cards.css";
 @import "./input.css";
 @import "./navbar.css";
+@import "./footer.css";
 
 :root {
   --primary-color: #1c1e53;
@@ -18,6 +19,8 @@
 
   --secondary-color: #f4f6fc;
   --secondary-color-dark: #eef4fa;
+
+  --tertiary-color: #fcd980;
 
   --text-color: white;
   --text-color-dark: #90919a;

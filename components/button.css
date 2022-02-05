@@ -12,7 +12,7 @@
 
 .btn-primary {
   background-color: var(--button-color);
-  color: var(--text-color-dark);
+  color: var(--primary-color-dark);
 }
 
 .btn-primary:hover {
@@ -52,6 +52,12 @@
 .btn-icon {
   font-size: 2rem;
   color: var(--primary-color);
+  cursor: pointer;
+}
+
+.btn-icon-secondary {
+  font-size: 2rem;
+  color: var(--text-color);
   cursor: pointer;
 }
 

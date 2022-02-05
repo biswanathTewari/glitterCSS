@@ -58,6 +58,10 @@
   line-height: 1.25rem;
 }
 
+.text-primary {
+  color: var(--text-color);
+}
+
 .text-secondary {
   color: var(--primary-color);
 }
