@@ -12,6 +12,11 @@
 @import "./navbar.css";
 @import "./footer.css";
 
+@font-face {
+  font-family: "logoFont";
+  src: url("../assets/fonts/beauty-mountains-font/BeautyMountainsPersonalUse-od7z.ttf");
+}
+
 :root {
   --primary-color: #1c1e53;
   --primary-color-light: #1c1e53;
