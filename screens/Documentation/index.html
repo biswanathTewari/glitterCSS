@@ -66,9 +66,27 @@
             </li>
 
             <li>
+              <a
+                href="#list"
+                class="sidebar-list-link sidebar-list-link-mobile text-600"
+              >
+                List
+              </a>
+            </li>
+
+            <li>
               <a href="#navigation" class="sidebar-list-link text-600">
                 Navigation
               </a>
+            </li>
+            <li>
+              <a href="#modal" class="sidebar-list-link text-600"> Modal </a>
+            </li>
+            <li>
+              <a href="#toast" class="sidebar-list-link text-600"> Toast </a>
+            </li>
+            <li>
+              <a href="#grid" class="sidebar-list-link text-600"> Grid </a>
             </li>
           </ul>
         </div>
@@ -147,10 +165,42 @@
           </li>
           <li>
             <a
+              href="#list"
+              class="sidebar-list-link sidebar-list-link-mobile text-600"
+            >
+              List
+            </a>
+          </li>
+          <li>
+            <a
               href="#navigation"
               class="sidebar-list-link sidebar-list-link-mobile text-600"
             >
               Navigation
+            </a>
+          </li>
+          <li>
+            <a
+              href="#modal"
+              class="sidebar-list-link sidebar-list-link-mobile text-600"
+            >
+              Modal
+            </a>
+          </li>
+          <li>
+            <a
+              href="#toast"
+              class="sidebar-list-link sidebar-list-link-mobile text-600"
+            >
+              Toast
+            </a>
+          </li>
+          <li>
+            <a
+              href="#grid"
+              class="sidebar-list-link sidebar-list-link-mobile text-600"
+            >
+              Grid
             </a>
           </li>
         </ul>
@@ -915,6 +965,90 @@
           </div>
         </section>
 
+        <section id="list" class="w-100 my-1">
+          <p class="h2 text-600">List</p>
+          <p class="text-lg my-1">
+            List is a component that can be used to display a list of items.
+          </p>
+          <div class="example">
+            <p class="h5 my-1">Example of different types of spaced list</p>
+            <div class="example-live flex-space-evenly align-items-end p-2">
+              <div class="list-container">
+                <ul class="list">
+                  <p class="h6">Spaced list</p>
+                  <li>Home</li>
+                  <li>Doc</li>
+                  <li>Contact</li>
+                </ul>
+              </div>
+
+              <div class="list-container">
+                <ul class="list ordered-list">
+                  <p class="h6">Spaced list</p>
+                  <li>Home</li>
+                  <li>Doc</li>
+                  <li>Contact</li>
+                </ul>
+              </div>
+              <div class="list-container">
+                <ul class="list unordered-list">
+                  <p class="h6">Spaced list</p>
+                  <li>Home</li>
+                  <li>Doc</li>
+                  <li>Contact</li>
+                </ul>
+              </div>
+              <div class="list-container">
+                <ul class="list alpha-list">
+                  <p class="h6">Spaced list</p>
+                  <li>Home</li>
+                  <li>Doc</li>
+                  <li>Contact</li>
+                </ul>
+              </div>
+            </div>
+            <div class="code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28244%2C246%2C252%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=80px&wc=true&wa=false&pv=41px&ph=100px&ln=false&fl=1&fm=Hack&fs=11.5px&lh=250%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522list-container%2522%253E%250A%2520%2520%253Cul%2520class%253D%2522list%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522h6%2522%253ESpaced%2520list%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cli%253EHome%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EDoc%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EContact%253C%252Fli%253E%250A%2520%2520%253C%252Ful%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522list-container%2522%253E%250A%2520%2520%253Cul%2520class%253D%2522list%2520ordered-list%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522h6%2522%253ESpaced%2520list%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cli%253EHome%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EDoc%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EContact%253C%252Fli%253E%250A%2520%2520%253C%252Ful%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522list-container%2522%253E%250A%2520%2520%253Cul%2520class%253D%2522list%2520unordered-list%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522h6%2522%253ESpaced%2520list%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cli%253EHome%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EDoc%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EContact%253C%252Fli%253E%250A%2520%2520%253C%252Ful%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522list-container%2522%253E%250A%2520%2520%253Cul%2520class%253D%2522list%2520alpha-list%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522h6%2522%253ESpaced%2520list%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cli%253EHome%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EDoc%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EContact%253C%252Fli%253E%250A%2520%2520%253C%252Ful%253E%250A%253C%252Fdiv%253E"
+                style="
+                  width: 64rem;
+                  height: 1105px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+            <p class="h5 my-1">Example of stacked list</p>
+            <div class="example-live flex-space-evenly align-items-end p-2">
+              <div class="list-container">
+                <ul class="list stacked-list">
+                  <p class="h6">stacked list</p>
+                  <li>Home</li>
+                  <li>Doc</li>
+                  <li>Contact</li>
+                </ul>
+              </div>
+            </div>
+            <div class="code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28244%2C246%2C252%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=80px&wc=true&wa=false&pv=41px&ph=100px&ln=false&fl=1&fm=Hack&fs=11.5px&lh=250%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522list-container%2522%253E%250A%2520%2520%253Cul%2520class%253D%2522list%2520stacked-list%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522h6%2522%253Estacked%2520list%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cli%253EHome%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EDoc%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253EContact%253C%252Fli%253E%250A%2520%2520%253C%252Ful%253E%250A%253C%252Fdiv%253E"
+                style="
+                  width: 64rem;
+                  height: 386px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+        </section>
+
         <section id="navigation" class="w-100 my-1">
           <p class="h2 text-600">Navigation</p>
           <p class="text-lg my-1">
@@ -949,6 +1083,160 @@
                 style="
                   width: 64rem;
                   height: 645px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+        </section>
+
+        <section id="modal" class="w-100 my-1">
+          <p class="h2 text-600">Modal</p>
+          <p class="text-lg my-1">
+            Modals are positioned over everything else in the document and
+            remove scroll from the page. It gets closed only with close button
+            on modal pop-up.
+          </p>
+          <div class="example">
+            <p class="h5 my-1">Example of modal</p>
+            <div class="example-live flex-space-evenly align-items-end">
+              <div class="modal-overlayDummy modal-overlay-active">
+                <div class="modal-card">
+                  <div class="modal-card-header">
+                    <p class="h5">Modal</p>
+                  </div>
+                  <div class="modal-card-body">
+                    <p class="text-rg">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quisquam, quidem.
+                    </p>
+                  </div>
+                  <div class="modal-card-footer">
+                    <button class="btn btn-primary mg-r-1">Save</button>
+                    <button class="btn btn-secondary">Cancel</button>
+                  </div>
+                  <div class="modal-card-close">
+                    <i class="fas fa-times"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28244%2C246%2C252%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=80px&wc=true&wa=false&pv=41px&ph=100px&ln=false&fl=1&fm=Hack&fs=11.5px&lh=250%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal-overlay%2520modal-overlay-active%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522modal-card%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522h5%2522%253EModal%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-card-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-rg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-card-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520mg-r-1%2522%253ESave%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253ECancel%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-card-close%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="
+                  width: 64rem;
+                  height: 702px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+        </section>
+
+        <section id="toast" class="w-100 my-1">
+          <p class="h2 text-600">Toast</p>
+          <p class="text-lg my-1">
+            Toasts are positioned over everything else in the document and
+            remove scroll from the page. It gets closed only with close button
+            on toast pop-up.
+          </p>
+          <div class="example">
+            <p class="h5 my-1">Example of toasts</p>
+            <div class="example-live flex-space-evenly align-items-end p-2">
+              <div class="toastDummy toast-success">
+                <p class="text-rg mg-r-1">Success!</p>
+                <i class="fas fa-times btn-icon btn-icon-sm"></i>
+              </div>
+
+              <div class="toastDummy toast-failed">
+                <p class="text-rg mg-r-1">Failed!</p>
+                <i class="fas fa-times btn-icon btn-icon-sm"></i>
+              </div>
+
+              <div class="toastDummy toast-info">
+                <p class="text-rg mg-r-1">checking!</p>
+                <i class="fas fa-times btn-icon btn-icon-sm"></i>
+              </div>
+            </div>
+            <div class="code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28244%2C246%2C252%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=80px&wc=true&wa=false&pv=41px&ph=100px&ln=false&fl=1&fm=Hack&fs=11.5px&lh=250%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toastDummy%2520toast-success%2522%253E%250A%2520%2520%253Cp%2520class%253D%2522text-rg%2520mg-r-1%2522%253ESuccess%21%253C%252Fp%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520btn-icon%2520btn-icon-sm%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522toastDummy%2520toast-failed%2522%253E%250A%2520%2520%253Cp%2520class%253D%2522text-rg%2520mg-r-1%2522%253EFailed%21%253C%252Fp%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520btn-icon%2520btn-icon-sm%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522toastDummy%2520toast-info%2522%253E%250A%2520%2520%253Cp%2520class%253D%2522text-rg%2520mg-r-1%2522%253Echecking%21%253C%252Fp%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times%2520btn-icon%2520btn-icon-sm%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E"
+                style="
+                  width: 64rem;
+                  height: 559px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+        </section>
+
+        <section id="grid" class="w-100 my-1">
+          <p class="h2 text-600">Grid</p>
+          <p class="text-lg my-1">
+            Grid is a layout system that allows you to create responsive
+            layouts.
+          </p>
+          <div class="example">
+            <p class="h5 my-1">Example of grid layout with two columns</p>
+            <div class="example-live flex-space-evenly align-items-end p-2">
+              <div class="grid col-2">
+                <div class="flex-center">
+                  <p class="h5">Grid 1</p>
+                </div>
+                <div class="flex-center">
+                  <p class="h5">Grid 2</p>
+                </div>
+              </div>
+            </div>
+            <div class="code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28244%2C246%2C252%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=80px&wc=true&wa=false&pv=41px&ph=100px&ln=false&fl=1&fm=Hack&fs=11.5px&lh=250%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid%2520col-2%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522flex-center%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522h5%2522%253EGrid%25201%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522flex-center%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522h5%2522%253EGrid%25202%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="
+                  width: 64rem;
+                  height: 386px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+
+            <p class="h5 my-1">Example of grid layout with three columns</p>
+            <div class="example-live flex-space-evenly align-items-end p-2">
+              <div class="grid col-3">
+                <div class="flex-center">
+                  <p class="h5">Grid 1</p>
+                </div>
+                <div class="flex-center">
+                  <p class="h5">Grid 2</p>
+                </div>
+                <div class="flex-center">
+                  <p class="h5">Grid 3</p>
+                </div>
+              </div>
+            </div>
+            <div class="code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28244%2C246%2C252%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=80px&wc=true&wa=false&pv=41px&ph=100px&ln=false&fl=1&fm=Hack&fs=11.5px&lh=250%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid%2520col-3%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522flex-center%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522h5%2522%253EGrid%25201%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522flex-center%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522h5%2522%253EGrid%25202%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522flex-center%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522h5%2522%253EGrid%25203%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="
+                  width: 64rem;
+                  height: 472px;
                   border: 0;
                   transform: scale(1);
                   overflow: hidden;
