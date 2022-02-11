@@ -8,6 +8,7 @@
   width: 100%;
   background-color: var(--primary-color);
   color: var(--text-color);
+  z-index: var(--zindex-4);
 }
 
 .logo {

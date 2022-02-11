@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Docs | glitterCSS</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="#" class="logo h5 text-600">{ glitterCSS</a>
+      <ul class="nav-links">
+        <li>
+          <a href="../../index.html" class="nav-link">Home</a>
+        </li>
+        <li>
+          <a href="#" class="nav-link">Doc</a>
+        </li>
+        <li>
+          <a
+            href="https://linktr.ee/iambiswanath"
+            class="nav-link"
+            target="_blank"
+            >Contact</a
+          >
+        </li>
+      </ul>
+      <div class="burger">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+
+    <main class="main">
+      <aside class="sidebar">
+        <div class="sidebar-header">
+          <p class="h6 sidebar-title text-600">Components</p>
+        </div>
+        <div class="sidebar-body my-1">
+          <ul class="sidebar-list">
+            <li>
+              <a href="#avatar" class="sidebar-list-link text-600"> Avatar </a>
+            </li>
+            <li>
+              <a href="#alert" class="sidebar-list-link text-600"> Alert </a>
+            </li>
+            <li>
+              <a href="#badge" class="sidebar-list-link text-600"> Badge </a>
+            </li>
+            <li>
+              <a href="#button" class="sidebar-list-link text-600"> Buttton </a>
+            </li>
+            <li>
+              <a href="#card" class="sidebar-list-link text-600"> Card </a>
+            </li>
+            <li>
+              <a href="#image" class="sidebar-list-link text-600"> Image </a>
+            </li>
+            <li>
+              <a href="#input" class="sidebar-list-link text-600"> Input </a>
+            </li>
+            <li>
+              <a href="#typography" class="sidebar-list-link text-600">
+                Typography
+              </a>
+            </li>
+
+            <li>
+              <a href="#navigation" class="sidebar-list-link text-600">
+                Navigation
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <aside class="sidebar-mobile padding-default">
+        <div class="sidebar-header-mobile">
+          <p class="h6">Components</p>
+          <i class="fas fa-sort-down btn-icon"></i>
+        </div>
+        <ul class="sidebar-list sidebar-list-mobile my-1">
+          <li>
+            <a
+              href="#avatar"
+              class="sidebar-list-link sidebar-list-link-mobile text-600"
+            >
+              Avatar
+            </a>
+          </li>
+          <li>
+            <a
+              href="#alert"
+              class="sidebar-list-link sidebar-list-link-mobile text-600"
+            >
+              Alert
+            </a>
+          </li>
+          <li>
+            <a
+              href="#badge"
+              class="sidebar-list-link sidebar-list-link-mobile text-600"
+            >
+              Badge
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="#button"
+              class="sidebar-list-link sidebar-list-link-mobile text-600"
+            >
+              Button
+            </a>
+          </li>
+          <li>
+            <a
+              href="#card"
+              class="sidebar-list-link sidebar-list-link-mobile text-600"
+            >
+              Card
+            </a>
+          </li>
+          <li>
+            <a
+              href="#image"
+              class="sidebar-list-link sidebar-list-link-mobile text-600"
+            >
+              Image
+            </a>
+          </li>
+          <li>
+            <a
+              href="#input"
+              class="sidebar-list-link sidebar-list-link-mobile text-600"
+            >
+              Input
+            </a>
+          </li>
+          <li>
+            <a
+              href="#typography"
+              class="sidebar-list-link sidebar-list-link-mobile text-600"
+            >
+              Typography
+            </a>
+          </li>
+          <li>
+            <a
+              href="#navigation"
+              class="sidebar-list-link sidebar-list-link-mobile text-600"
+            >
+              Navigation
+            </a>
+          </li>
+        </ul>
+      </aside>
+
+      <article class="article padding-default flex-1">
+        <section id="avatar" class="w-100">
+          <p class="h2 text-600">Avatar</p>
+          <p class="text-lg my-1">
+            The avatar is a small image that is used to represent a user.
+          </p>
+          <div class="example">
+            <p class="h5 my-1">Example of image avatars</p>
+            <div class="example-live flex-space-evenly align-items-end p-2">
+              <img
+                src="https://placeimg.com/480/480/any"
+                alt="avatar"
+                loading="lazy"
+                class="avatar avatar-large img-responsive"
+              />
+              <img
+                src="https://placeimg.com/480/480/any"
+                alt="avatar"
+                loading="lazy"
+                class="avatar avatar-medium img-responsive"
+              />
+              <img
+                src="https://placeimg.com/480/480/any"
+                alt="avatar"
+                loading="lazy"
+                class="avatar avatar-small img-responsive"
+              />
+              <img
+                src="https://placeimg.com/480/480/any"
+                alt="avatar"
+                loading="lazy"
+                class="avatar avatar-xsmall img-responsive"
+              />
+            </div>
+            <code>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28244%2C246%2C252%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=22px&wc=true&wa=true&pv=31px&ph=26px&ln=false&fl=1&fm=Hack&fs=11.5px&lh=250%25&si=false&es=2x&wm=false&code=%253Cimg%2520src%253D%2522https%253A%252F%252Fplaceimg.com%252F480%252F480%252Fany%2522%2520alt%253D%2522avatar%2522%2520loading%253D%2522lazy%2522%2520class%253D%2522avatar%2520avatar-large%2520img-responsive%2522%2520%252F%253E%250A%253Cimg%2520src%253D%2522https%253A%252F%252Fplaceimg.com%252F480%252F480%252Fany%2522%2520alt%253D%2522avatar%2522%2520loading%253D%2522lazy%2522%2520class%253D%2522avatar%2520avatar-large%2520img-responsive%2522%2520%252F%253E%250A%253Cimg%2520src%253D%2522https%253A%252F%252Fplaceimg.com%252F480%252F480%252Fany%2522%2520alt%253D%2522avatar%2522%2520loading%253D%2522lazy%2522%2520class%253D%2522avatar%2520avatar-large%2520img-responsive%2522%2520%252F%253E%250A%253Cimg%2520src%253D%2522https%253A%252F%252Fplaceimg.com%252F480%252F480%252Fany%2522%2520alt%253D%2522avatar%2522%2520loading%253D%2522lazy%2522%2520class%253D%2522avatar%2520avatar-large%2520img-responsive%2522%2520%252F%253E%250A"
+                style="
+                  width: 100%;
+                  height: 265px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </code>
+          </div>
+          <div class="example">
+            <p class="h5 my-1">Example of text avatars</p>
+            <div class="example-live flex-space-evenly align-items-end p-2">
+              <p class="avatar avatar-large avatar-text">AB</p>
+              <p class="avatar avatar-medium avatar-text">AB</p>
+              <p class="avatar avatar-small avatar-text">AB</p>
+              <p class="avatar avatar-xsmall avatar-text">AB</p>
+            </div>
+            <code>
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28244%2C246%2C252%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=80px&wc=true&wa=true&pv=41px&ph=61px&ln=false&fl=1&fm=Hack&fs=11.5px&lh=250%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522avatar%2520avatar-large%2520avatar-text%2522%253EAB%253C%252Fp%253E%250A%253Cp%2520class%253D%2522avatar%2520avatar-medium%2520avatar-text%2522%253EAB%253C%252Fp%253E%250A%253Cp%2520class%253D%2522avatar%2520avatar-small%2520avatar-text%2522%253EAB%253C%252Fp%253E%250A%253Cp%2520class%253D%2522avatar%2520avatar-xsmall%2520avatar-text%2522%253EAB%253C%252Fp%253E%250A"
+                style="
+                  width: 100%;
+                  height: 285px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </code>
+          </div>
+        </section>
+        <section id="alert" class="w-100 my-1">
+          <p class="h2 text-600">Alert</p>
+          <p class="text-lg my-1">
+            Alerts are used to attract user's attention for important
+            information without interrupting the user's flow.
+          </p>
+          <div class="example">
+            <p class="h5 my-1">Example of alerts</p>
+            <div class="example-live p-2 flex-column flex-space-evenly">
+              <div class="alert alert-primary">
+                A simple primary alert—check it out!
+              </div>
+              <div class="alert alert-secondary">
+                A simple primary alert with
+                <span><a href="#" class="alert-link">link</a></span
+                >. Give it a click if you like.
+              </div>
+              <div class="alert alert-success">
+                <span
+                  ><i class="fas fa-exclamation-circle alert-icon"></i
+                ></span>
+                <div>A simple primary alert—check it out!</div>
+              </div>
+              <div class="alert alert-danger">
+                A simple primary alert—check it out!
+              </div>
+              <div class="alert alert-warning">
+                A simple primary alert—check it out!
+              </div>
+              <div class="alert alert-info">
+                A simple primary alert—check it out!
+              </div>
+              <div class="alert alert-light">
+                A simple primary alert—check it out!
+              </div>
+              <div class="alert alert-dark">
+                A simple primary alert—check it out!
+              </div>
+            </div>
+            <div class="code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28244%2C246%2C252%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=80px&wc=true&wa=false&pv=41px&ph=61px&ln=false&fl=1&fm=Hack&fs=11.5px&lh=250%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520alert-primary%2522%253EA%2520simple%2520primary%2520alert%25E2%2580%2594check%2520it%2520out%21%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-secondary%2522%253EA%2520simple%2520primary%2520alert%2520with%2520%253Cspan%253E%253Ca%2520%2509%2509href%253D%2522%2523%2522%2520class%253D%2522alert-link%2522%253Elink%253C%252Fa%253E%253C%252Fspan%253E.%2520Give%2520it%2520a%2520click%2520if%2520you%2520like.%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-success%2522%253E%250A%2520%2520%253Cspan%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation-circle%2520alert-icon%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%253Cdiv%253EA%2520simple%2520primary%2520alert%25E2%2580%2594check%2520it%2520out%21%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-danger%2522%253EA%2520simple%2520primary%2520alert%25E2%2580%2594check%2520it%2520out%21%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-warning%2522%253EA%2520simple%2520primary%2520alert%25E2%2580%2594check%2520it%2520out%21%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-info%2522%253EA%2520simple%2520primary%2520alert%25E2%2580%2594check%2520it%2520out%21%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-light%2522%253EA%2520simple%2520primary%2520alert%25E2%2580%2594check%2520it%2520out%21%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520alert-dark%2522%253EA%2520simple%2520primary%2520alert%25E2%2580%2594check%2520it%2520out%21%253C%252Fdiv%253E"
+                style="
+                  width: 64rem;
+                  height: 473px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+        </section>
+        <section id="badge" class="w-100 my-1">
+          <p class="h2 text-600">Badge</p>
+          <p class="text-lg my-1">
+            Badges are being used to display a notification count or status
+            information.
+          </p>
+          <div class="example">
+            <p class="h5 my-1">Example of badges on avatars</p>
+            <div class="example-live flex-space-evenly align-items-end p-2">
+              <div class="badge-container">
+                <img
+                  src="https://placeimg.com/480/480/any"
+                  alt="ppl"
+                  class="avatar avatar-large"
+                />
+                <div class="badge-avatar badge-avatar-large badge-online"></div>
+              </div>
+
+              <div class="badge-container">
+                <img
+                  src="https://placeimg.com/480/480/any"
+                  alt="ppl"
+                  class="avatar avatar-medium"
+                />
+                <div
+                  class="badge-avatar badge-avatar-medium badge-offline"
+                ></div>
+              </div>
+              <div class="badge-container">
+                <img
+                  src="https://placeimg.com/480/480/any"
+                  alt="ppl"
+                  class="avatar avatar-small"
+                />
+                <div class="badge-avatar badge-avatar-small badge-away"></div>
+              </div>
+              <div class="badge-container">
+                <img
+                  src="https://placeimg.com/480/480/any"
+                  alt="ppl"
+                  class="avatar avatar-xsmall"
+                />
+                <div
+                  class="badge-avatar badge-avatar-xsmall badge-online"
+                ></div>
+              </div>
+            </div>
+            <div class="code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28244%2C246%2C252%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=80px&wc=true&wa=false&pv=36px&ph=81px&ln=false&fl=1&fm=Hack&fs=11.5px&lh=250%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%253Cimg%250A%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fplaceimg.com%252F480%252F480%252Fany%2522%250A%2520%2520%2520%2520alt%253D%2522ppl%2522%250A%2520%2520%2520%2520class%253D%2522avatar%2520avatar-large%2522%250A%2520%2520%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522badge-avatar%2520badge-avatar-large%2520badge-online%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%253Cimg%250A%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fplaceimg.com%252F480%252F480%252Fany%2522%250A%2520%2520%2520%2520alt%253D%2522ppl%2522%250A%2520%2520%2520%2520class%253D%2522avatar%2520avatar-medium%2522%250A%2520%2520%252F%253E%250A%2520%2520%253Cdiv%250A%2520%2520%2520%2520class%253D%2522badge-avatar%2520badge-avatar-medium%2520badge-offline%2522%250A%2520%2520%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%253Cimg%250A%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fplaceimg.com%252F480%252F480%252Fany%2522%250A%2520%2520%2520%2520alt%253D%2522ppl%2522%250A%2520%2520%2520%2520class%253D%2522avatar%2520avatar-small%2522%250A%2520%2520%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522badge-avatar%2520badge-avatar-small%2520badge-away%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%253Cimg%250A%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fplaceimg.com%252F480%252F480%252Fany%2522%250A%2520%2520%2520%2520alt%253D%2522ppl%2522%250A%2520%2520%2520%2520class%253D%2522avatar%2520avatar-xsmall%2522%250A%2520%2520%252F%253E%250A%2520%2520%253Cdiv%250A%2520%2520%2520%2520class%253D%2522badge-avatar%2520badge-avatar-xsmall%2520badge-online%2522%250A%2520%2520%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="
+                  width: 64rem;
+                  height: 700px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+            <p class="h5 my-1">Example of badges on icons</p>
+            <div class="example-live flex-space-evenly align-items-end p-2">
+              <div class="badge-container">
+                <i class="fas fa-bell icon-large"></i>
+                <div class="badge-notification">5</div>
+              </div>
+              <div class="badge-container">
+                <i class="fas fa-bell icon-medium"></i>
+                <div class="badge-notification">5</div>
+              </div>
+            </div>
+            <div class="code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28244%2C246%2C252%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=80px&wc=true&wa=false&pv=41px&ph=100px&ln=false&fl=1&fm=Hack&fs=11.5px&lh=250%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-bell%2520icon-large%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cdiv%2520class%253D%2522badge-notification%2522%253E5%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-container%2522%253E%250A%2520%2520%253Ci%2520class%253D%2522fas%2520fa-bell%2520icon-medium%2522%253E%253C%252Fi%253E%250A%2520%2520%253Cdiv%2520class%253D%2522badge-notification%2522%253E5%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="
+                  width: 64rem;
+                  height: 371px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+        </section>
+
+        <section id="button" class="w-100 my-1">
+          <p class="h2 text-600">Button</p>
+          <p class="text-lg my-1">
+            Buttons are also called as call to action. We have range of buttons
+            and their states.
+          </p>
+          <div class="example">
+            <p class="h5 my-1">Examples of buttons</p>
+            <div
+              class="example-live flex-space-evenly align-items-end p-2 flex-wrap"
+            >
+              <div class="btn btn-primary">primary</div>
+              <div class="btn btn-secondary">secondary</div>
+              <div class="btn btn-primary-disabled">primary</div>
+              <div class="btn btn-secondary-disabled">secondary</div>
+              <a href="#" class="btn btn-link">link</a>
+              <a href="www.instagram.com/iambizan" class="btn-icon"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <div class="btn-floating-action-dummy">X</div>
+            </div>
+            <div class="code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28244%2C246%2C252%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=80px&wc=true&wa=false&pv=41px&ph=100px&ln=false&fl=1&fm=Hack&fs=11.5px&lh=250%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522btn%2520btn-primary%2522%253Eprimary%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522btn%2520btn-secondary%2522%253Esecondary%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522btn%2520btn-primary-disabled%2522%253Eprimary%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522btn%2520btn-secondary-disabled%2522%253Esecondary%253C%252Fdiv%253E%250A%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522btn%2520btn-link%2522%253Elink%253C%252Fa%253E%250A%253Ca%2520href%253D%2522www.instagram.com%252Fiambizan%2522%2520class%253D%2522btn-icon%2522%253E%250A%2509%253Ci%2520class%253D%2522fab%2520fa-instagram%2522%253E%253C%252Fi%253E%250A%253C%252Fa%253E%250A%253Cdiv%2520class%253D%2522btn-floating-action%2522%253EX%253C%252Fdiv%253E"
+                style="
+                  width: 64rem;
+                  height: 400px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+        </section>
+
+        <section id="card" class="w-100 my-1">
+          <p class="h2 text-600">Card</p>
+          <p class="text-lg my-1">
+            Card are used to show user related data collectively, like product
+            details.
+          </p>
+          <div class="example">
+            <p class="h5 my-1">Example of cards with shadow and badge.</p>
+            <div
+              class="example-live flex-space-evenly align-items-end p-2 flex-wrap"
+            >
+              <div class="card card-shadow">
+                <img
+                  src="https://placeimg.com/480/480/any"
+                  alt="item"
+                  loading="lazy"
+                  class="img-responsive card-img"
+                />
+
+                <div class="card-info">
+                  <div class="card-title">
+                    <p class="h6 text-600">Something</p>
+                    <a href="#" class="btn-icon btn-icon-sm"
+                      ><i class="fas fa-heart"></i
+                    ></a>
+                  </div>
+                  <div class="card-subtitle">
+                    <p class="text-md">somethings never go out of style</p>
+                    <p class="text-rg">
+                      $799
+                      <span class="text-line-through text-tertiary">$999</span>
+                      <span class="text-secondary">10%</span>
+                    </p>
+                  </div>
+                  <div class="card-btns">
+                    <a href="#" class="btn btn-primary mg-right1"
+                      >Add to cart</a
+                    >
+                    <a href="#" class="btn btn-secondary">Buy now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card mt-2">
+                <div class="card-badge">
+                  <p class="text-sm">Sale</p>
+                </div>
+                <img
+                  src="https://placeimg.com/480/480/any"
+                  alt="item"
+                  loading="lazy"
+                  class="img-responsive card-img"
+                />
+
+                <div class="card-info">
+                  <div class="card-title">
+                    <p class="h6 text-600">Something</p>
+                    <a href="#" class="btn-icon btn-icon-sm"
+                      ><i class="fas fa-heart"></i
+                    ></a>
+                  </div>
+                  <div class="card-subtitle">
+                    <p class="text-md">somethings never go out of style</p>
+                    <p class="text-rg">
+                      $799
+                      <span class="text-line-through text-tertiary">$999</span>
+                      <span class="text-secondary">10%</span>
+                    </p>
+                  </div>
+                  <div class="card-btns">
+                    <a href="#" class="btn btn-primary mg-right1"
+                      >Add to cart</a
+                    >
+                    <a href="#" class="btn btn-secondary">Buy now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28244%2C246%2C252%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=80px&wc=true&wa=false&pv=41px&ph=100px&ln=false&fl=1&fm=Hack&fs=11.5px&lh=250%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-shadow%2522%253E%250A%2520%2520%253Cimg%250A%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fplaceimg.com%252F480%252F480%252Fany%2522%250A%2520%2520%2520%2520alt%253D%2522item%2522%250A%2520%2520%2520%2520loading%253D%2522lazy%2522%250A%2520%2520%2520%2520class%253D%2522img-responsive%2520card-img%2522%250A%2520%2520%252F%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522card-info%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522h6%2520text-600%2522%253ESomething%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522btn-icon%2520btn-icon-sm%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%253E%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%250A%2520%2520%2520%2520%2520%2520%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-subtitle%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-md%2522%253Esomethings%2520never%2520go%2520out%2520of%2520style%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-rg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2524799%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522text-line-through%2520text-tertiary%2522%253E%2524999%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522text-secondary%2522%253E10%2525%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btns%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522btn%2520btn-primary%2520mg-right1%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%253EAdd%2520to%2520cart%253C%252Fa%250A%2520%2520%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522btn%2520btn-secondary%2522%253EBuy%2520now%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-badge%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522text-sm%2522%253ESale%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cimg%250A%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fplaceimg.com%252F480%252F480%252Fany%2522%250A%2520%2520%2520%2520alt%253D%2522item%2522%250A%2520%2520%2520%2520loading%253D%2522lazy%2522%250A%2520%2520%2520%2520class%253D%2522img-responsive%2520card-img%2522%250A%2520%2520%252F%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522card-info%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522h6%2520text-600%2522%253ESomething%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522btn-icon%2520btn-icon-sm%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%253E%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%250A%2520%2520%2520%2520%2520%2520%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-subtitle%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-md%2522%253Esomethings%2520never%2520go%2520out%2520of%2520style%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-rg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2524799%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522text-line-through%2520text-tertiary%2522%253E%2524999%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522text-secondary%2522%253E10%2525%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btns%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522btn%2520btn-primary%2520mg-right1%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%253EAdd%2520to%2520cart%253C%252Fa%250A%2520%2520%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522btn%2520btn-secondary%2522%253EBuy%2520now%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="
+                  width: 64rem;
+                  height: 2010px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+
+            <p class="h5 my-1">
+              Example of cards with dismiss and text overlay.
+            </p>
+            <div
+              class="example-live flex-space-evenly align-items-end p-2 flex-wrap"
+            >
+              <div class="card">
+                <a href="#" class="card-close btn-icon btn-icon-sm"
+                  ><i class="fas fa-times"></i
+                ></a>
+
+                <img
+                  src="https://placeimg.com/480/480/any"
+                  alt="item"
+                  loading="lazy"
+                  class="img-responsive card-img"
+                />
+
+                <div class="card-info">
+                  <div class="card-title">
+                    <p class="h6 text-600">Something</p>
+                    <a href="#" class="btn-icon btn-icon-sm"
+                      ><i class="fas fa-heart"></i
+                    ></a>
+                  </div>
+                  <div class="card-subtitle">
+                    <p class="text-md">somethings never go out of style</p>
+                    <p class="text-rg">
+                      $799
+                      <span class="text-line-through text-tertiary">$999</span>
+                      <span class="text-secondary">10%</span>
+                    </p>
+                  </div>
+                  <div class="card-btns">
+                    <a href="#" class="btn btn-primary mg-right1"
+                      >Add to cart</a
+                    >
+                    <a href="#" class="btn btn-secondary">Buy now</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card mt-2">
+                <a href="#" class="card-close btn-icon btn-icon-sm"
+                  ><i class="fas fa-times"></i
+                ></a>
+                <div class="card-badge">
+                  <p class="text-sm">Sale</p>
+                </div>
+
+                <img
+                  src="https://placeimg.com/480/480/any"
+                  alt="item"
+                  loading="lazy"
+                  class="img-responsive card-img"
+                />
+
+                <div class="card-info">
+                  <div class="card-title">
+                    <p class="h6 text-600">Something</p>
+                    <a href="#" class="btn-icon btn-icon-sm"
+                      ><i class="fas fa-heart"></i
+                    ></a>
+                  </div>
+                  <div class="card-subtitle">
+                    <p class="text-md">somethings never go out of style</p>
+                    <p class="text-rg">
+                      $799
+                      <span class="text-line-through text-tertiary">$999</span>
+                      <span class="text-secondary">10%</span>
+                    </p>
+                  </div>
+                  <div class="card-btns">
+                    <a href="#" class="btn btn-primary mg-right1"
+                      >Add to cart</a
+                    >
+                    <a href="#" class="btn btn-secondary">Buy now</a>
+                  </div>
+
+                  <div class="card-text-overlay">
+                    <p class="h6">Out of stock</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28244%2C246%2C252%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=80px&wc=true&wa=false&pv=41px&ph=100px&ln=false&fl=1&fm=Hack&fs=11.5px&lh=250%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522card-close%2520btn-icon%2520btn-icon-sm%2522%250A%2520%2520%2520%2520%2520%2520%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%250A%2520%2520%2520%2520%253E%253C%252Fa%253E%250A%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fplaceimg.com%252F480%252F480%252Fany%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522item%2522%250A%2520%2520%2520%2520%2520%2520loading%253D%2522lazy%2522%250A%2520%2520%2520%2520%2520%2520class%253D%2522img-responsive%2520card-img%2522%250A%2520%2520%2520%2520%252F%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-info%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522h6%2520text-600%2522%253ESomething%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522btn-icon%2520btn-icon-sm%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%250A%2520%2520%2520%2520%2520%2520%2520%2520%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-subtitle%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-md%2522%253Esomethings%2520never%2520go%2520out%2520of%2520style%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-rg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2524799%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522text-line-through%2520text-tertiary%2522%253E%2524999%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522text-secondary%2522%253E10%2525%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btns%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522btn%2520btn-primary%2520mg-right1%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253EAdd%2520to%2520cart%253C%252Fa%250A%2520%2520%2520%2520%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522btn%2520btn-secondary%2522%253EBuy%2520now%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522card%2520mt-2%2522%253E%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522card-close%2520btn-icon%2520btn-icon-sm%2522%250A%2520%2520%2520%2520%2520%2520%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%250A%2520%2520%2520%2520%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-sm%2522%253ESale%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fplaceimg.com%252F480%252F480%252Fany%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522item%2522%250A%2520%2520%2520%2520%2520%2520loading%253D%2522lazy%2522%250A%2520%2520%2520%2520%2520%2520class%253D%2522img-responsive%2520card-img%2522%250A%2520%2520%2520%2520%252F%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-info%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522h6%2520text-600%2522%253ESomething%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522btn-icon%2520btn-icon-sm%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%250A%2520%2520%2520%2520%2520%2520%2520%2520%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-subtitle%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-md%2522%253Esomethings%2520never%2520go%2520out%2520of%2520style%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-rg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2524799%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522text-line-through%2520textertiary%2522%253E%2524999%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522text-secondary%2522%253E10%2525%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btns%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522btn%2520btn-primary%2520mg-right1%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253EAdd%2520to%2520cart%253C%252Fa%250A%2520%2520%2520%2520%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522btn%2520btn-secondary%2522%253EBuy%2520now%253C%252Fa%253E%250A%2520%2520%2520%2520%2520"
+                style="
+                  width: 64rem;
+                  height: 2412px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+
+            <p class="h5 my-1">Example of horizontal cards.</p>
+            <div
+              class="example-live flex-space-evenly align-items-end p-2 flex-wrap"
+            >
+              <div class="card card-horizontal card-shadow">
+                <img
+                  src="https://placeimg.com/480/480/any"
+                  alt="item"
+                  loading="lazy"
+                  class="img-responsive card-img-horizontal"
+                />
+
+                <div class="card-info-horizontal">
+                  <div class="card-title">
+                    <p class="h6 text-600">Something</p>
+                    <a href="#" class="btn-icon btn-icon-sm"
+                      ><i class="fas fa-heart"></i
+                    ></a>
+                  </div>
+                  <div class="card-subtitle">
+                    <p class="text-md">somethings never go out of style</p>
+                    <p class="text-rg">
+                      $799
+                      <span class="text-line-through text-tertiary">$999</span>
+                      <span class="text-secondary">10%</span>
+                    </p>
+                  </div>
+                  <div class="card-btns">
+                    <a href="#" class="btn btn-primary mg-right1"
+                      >Add to cart</a
+                    >
+                    <a href="#" class="btn btn-secondary">Buy now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28244%2C246%2C252%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=80px&wc=true&wa=false&pv=41px&ph=100px&ln=false&fl=1&fm=Hack&fs=11.5px&lh=250%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card-info-horizontal%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522h6%2520text-600%2522%253ESomething%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522btn-icon%2520btn-icon-sm%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%253E%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%250A%2520%2520%2520%2520%2520%2520%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-subtitle%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-md%2522%253Esomethings%2520never%2520go%2520out%2520of%2520style%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-rg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2524799%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522text-line-through%2520text-tertiary%2522%253E%2524999%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522text-secondary%2522%253E10%2525%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btns%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522btn%2520btn-primary%2520mg-right1%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%253EAdd%2520to%2520cart%253C%252Fa%250A%2520%2520%2520%2520%2520%2520%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522btn%2520btn-secondary%2522%253EBuy%2520now%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E"
+                style="
+                  width: 64rem;
+                  height: 774px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+
+            <p class="h5 my-1">Example of text only cards.</p>
+            <div
+              class="example-live flex-space-evenly align-items-end p-2 flex-wrap"
+            >
+              <div class="card">
+                <div class="card-info">
+                  <div class="card-title">
+                    <p class="h6 text-600">Something</p>
+                  </div>
+                  <div class="card-subtitle">
+                    <p class="text-md">somethings never go out of style</p>
+                    <p class="text-rg">
+                      26/01/2022
+                      <span class="text-secondary">7:40pm</span>
+                    </p>
+                  </div>
+                  <p class="card-text-body text-rg">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Quas omnis porro architecto, voluptatum quia expedita magni
+                    tempore consectetur reprehenderit provident delectus
+                    corrupti quos ducimus maiores quod eaque sunt at et!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28244%2C246%2C252%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=80px&wc=true&wa=false&pv=41px&ph=100px&ln=false&fl=1&fm=Hack&fs=11.5px&lh=250%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-info%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522h6%2520text-600%2522%253ESomething%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-subtitle%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-md%2522%253Esomethings%2520never%2520go%2520out%2520of%2520style%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522text-rg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%252026%252F01%252F2022%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522text-secondary%2522%253E7%253A40pm%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-text-body%2520text-rg%2522%253E%250A%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%252C%2520consectetur%2520adipisicing%2520elit.%250A%2520%2520%2520%2520%2520%2520Quas%2520omnis%2520porro%2520architecto%252C%2520voluptatum%2520quia%2520expedita%2520magni%250A%2520%2520%2520%2520%2520%2520tempore%2520consectetur%2520reprehenderit%2520provident%2520delectus%250A%2520%2520%2520%2520%2520%2520corrupti%2520quos%2520ducimus%2520maiores%2520quod%2520eaque%2520sunt%2520at%2520et%21%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="
+                  width: 64rem;
+                  height: 716px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+        </section>
+
+        <section id="image" class="w-100 my-1">
+          <p class="h2 text-600">Image</p>
+          <p class="text-lg my-1">
+            Images can be responsive to fit the parent's width, and also can be
+            customised to be round shaped.
+          </p>
+          <div class="example">
+            <p class="h5 my-1">Example of responsive images</p>
+            <div class="example-live flex-space-evenly align-items-end p-2">
+              <img
+                src="https://placeimg.com/480/480/any"
+                alt="item"
+                loading="lazy"
+                class="img-responsive card-img"
+              />
+            </div>
+            <div class="code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28244%2C246%2C252%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=80px&wc=true&wa=false&pv=41px&ph=100px&ln=false&fl=1&fm=Hack&fs=11.5px&lh=250%25&si=false&es=2x&wm=false&code=%253Cimg%250A%2520%2520src%253D%2522https%253A%252F%252Fplaceimg.com%252F480%252F480%252Fany%2522%250A%2520%2520alt%253D%2522item%2522%250A%2520%2520loading%253D%2522lazy%2522%250A%2520%2520class%253D%2522img-responsive%2522%250A%252F%253E"
+                style="
+                  width: 64rem;
+                  height: 314px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+
+            <p class="h5 my-1">Example of round images</p>
+            <div class="example-live flex-space-evenly align-items-end p-2">
+              <img
+                src="https://placeimg.com/480/480/any"
+                alt="item"
+                loading="lazy"
+                class="img-responsive img-round card-img"
+              />
+            </div>
+            <div class="code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28244%2C246%2C252%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=80px&wc=true&wa=false&pv=41px&ph=100px&ln=false&fl=1&fm=Hack&fs=11.5px&lh=250%25&si=false&es=2x&wm=false&code=%253Cimg%250A%2520%2520src%253D%2522https%253A%252F%252Fplaceimg.com%252F480%252F480%252Fany%2522%250A%2520%2520alt%253D%2522item%2522%250A%2520%2520loading%253D%2522lazy%2522%250A%2520%2520class%253D%2522img-responsive%2520img-round%2522%250A%252F%253E"
+                style="
+                  width: 64rem;
+                  height: 314px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+        </section>
+
+        <section id="input" class="w-100 my-1">
+          <p class="h2 text-600">Input</p>
+          <p class="text-lg my-1">There are styled form fields listed below.</p>
+          <div class="example">
+            <p class="h5 my-1">Example of input fields</p>
+            <div class="example-live p-2">
+              <label for="email" class="form-label form-label-required"
+                >Email</label
+              >
+              <input
+                id="email"
+                type="email"
+                class="form-field"
+                placeholder="name@example.com"
+                required
+              />
+
+              <label for="messgae" class="form-label form-label-required my-1"
+                >Message</label
+              >
+              <textarea
+                id="message"
+                class="form-textbox"
+                placeholder="Tell us about your project"
+                rows="3"
+              ></textarea>
+
+              <label for="email" class="form-label form-label-required my-1"
+                >Email</label
+              >
+              <input
+                id="email"
+                type="email"
+                class="form-field form-error"
+                placeholder="name@example.com"
+                required
+              />
+              <p class="form-error-text">This field is required.</p>
+            </div>
+            <div class="code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28244%2C246%2C252%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=80px&wc=true&wa=false&pv=41px&ph=100px&ln=false&fl=1&fm=Hack&fs=11.5px&lh=250%25&si=false&es=2x&wm=false&code=%253Clabel%2520for%253D%2522email%2522%2520class%253D%2522form-label%2520form-label-required%2522%253E%250A%2520%2520Email%250A%253C%252Flabel%253E%250A%253Cinput%250A%2520%2520id%253D%2522email%2522%250A%2520%2520type%253D%2522email%2522%250A%2520%2520class%253D%2522form-field%2522%250A%2520%2520placeholder%253D%2522name%2540example.com%2522%250A%2520%2520required%250A%252F%253E%250A%250A%253Clabel%2520for%253D%2522messgae%2522%2520class%253D%2522form-label%2520form-label-required%2520my-1%2522%253EMessage%253C%252Flabel%253E%250A%253Ctextarea%250A%2520%2520id%253D%2522message%2522%250A%2520%2520class%253D%2522form-textbox%2522%250A%2520%2520placeholder%253D%2522Tell%2520us%2520about%2520your%2520project%2522%250A%2520%2520rows%253D%25223%2522%253E%250A%2520%253C%252Ftextarea%253E%250A%250A%253Clabel%2520for%253D%2522email%2522%2520class%253D%2522form-label%2520form-label-required%2520my-1%2522%253E%250A%2520%2520Email%250A%2520%253C%252Flabel%253E%250A%253Cinput%250A%2520%2520id%253D%2522email%2522%250A%2520%2520type%253D%2522email%2522%250A%2520%2520class%253D%2522form-field%2520form-error%2522%250A%2520%2520placeholder%253D%2522name%2540example.com%2522%250A%2520%2520required%250A%252F%253E%250A%253Cp%2520class%253D%2522form-error-text%2522%253EThis%2520field%2520is%2520required.%253C%252Fp%253E"
+                style="
+                  width: 64rem;
+                  height: 1047px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+        </section>
+
+        <section id="typography" class="w-100 my-1">
+          <p class="h2 text-600">Typography</p>
+          <p class="text-lg my-1">Check out below text utilities.</p>
+          <div class="example">
+            <p class="h5 my-1">Example of headings</p>
+            <div class="example-live flex-space-evenly align-items-end p-2">
+              <div class="">
+                <p class="h1">something</p>
+                <p class="h2">something</p>
+                <p class="h3">something</p>
+                <p class="h4">something</p>
+                <p class="h5">something</p>
+                <p class="h6">something</p>
+              </div>
+            </div>
+            <div class="code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28244%2C246%2C252%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=80px&wc=true&wa=false&pv=41px&ph=100px&ln=false&fl=1&fm=Hack&fs=11.5px&lh=250%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522h1%2522%253Esomething%253C%252Fp%253E%250A%253Cp%2520class%253D%2522h2%2522%253Esomething%253C%252Fp%253E%250A%253Cp%2520class%253D%2522h3%2522%253Esomething%253C%252Fp%253E%250A%253Cp%2520class%253D%2522h4%2522%253Esomething%253C%252Fp%253E%250A%253Cp%2520class%253D%2522h5%2522%253Esomething%253C%252Fp%253E%250A%253Cp%2520class%253D%2522h6%2522%253Esomething%253C%252Fp%253E"
+                style="
+                  width: 64rem;
+                  height: 329px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+
+            <p class="h5 my-1">Example of different text sizes</p>
+            <div class="example-live flex-space-evenly align-items-end p-2">
+              <div class="">
+                <p class="text-lg">something</p>
+                <p class="text-rg">something</p>
+                <p class="text-md">something</p>
+                <p class="text-sm">something</p>
+              </div>
+            </div>
+            <div class="code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28244%2C246%2C252%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=80px&wc=true&wa=false&pv=41px&ph=100px&ln=false&fl=1&fm=Hack&fs=11.5px&lh=250%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522text-lg%2522%253Esomething%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-rg%2522%253Esomething%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-md%2522%253Esomething%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-sm%2522%253Esomething%253C%252Fp%253E"
+                style="
+                  width: 64rem;
+                  height: 271px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+
+            <p class="h5 my-1">
+              Example of texts with different colors and font weights
+            </p>
+            <div class="example-live flex-space-evenly align-items-end p-2">
+              <div class="">
+                <p class="text-lg text-primary text-700">something</p>
+                <p class="text-lg text-secondary text-600">something</p>
+                <p class="text-lg text-tertiary text-500">something</p>
+              </div>
+            </div>
+            <div class="code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28244%2C246%2C252%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=80px&wc=true&wa=false&pv=41px&ph=100px&ln=false&fl=1&fm=Hack&fs=11.5px&lh=250%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522text-lg%2520text-primary%2520text-700%2522%253Esomething%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-lg%2520text-secondary%2520text-600%2522%253Esomething%253C%252Fp%253E%250A%253Cp%2520class%253D%2522text-lg%2520text-tertiary%2520text-500%2522%253Esomething%253C%252Fp%253E"
+                style="
+                  width: 64rem;
+                  height: 242px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+
+            <p class="h5 my-1">
+              Examples of text alignments and some extra styles
+            </p>
+            <div class="example-live align-items-end p-2">
+              <div class="">
+                <p class="h6 text-left">something</p>
+                <p class="h6 text-center text-underline">something</p>
+                <p class="h6 text-right text-line-through">something</p>
+              </div>
+            </div>
+            <div class="code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28244%2C246%2C252%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=80px&wc=true&wa=false&pv=41px&ph=100px&ln=false&fl=1&fm=Hack&fs=11.5px&lh=250%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522h6%2520text-left%2522%253Esomething%253C%252Fp%253E%250A%253Cp%2520class%253D%2522h6%2520text-center%2520text-underline%2522%253Esomething%253C%252Fp%253E%250A%253Cp%2520class%253D%2522h6%2520text-right%2520text-line-through%2522%253Esomething%253C%252Fp%253E"
+                style="
+                  width: 64rem;
+                  height: 242px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+        </section>
+
+        <section id="navigation" class="w-100 my-1">
+          <p class="h2 text-600">Navigation</p>
+          <p class="text-lg my-1">
+            Navigation bar is used to navigate through the web apps or websites.
+            This navigation component is responsive. It is a hamburger menu in
+            medium and small devices.
+          </p>
+          <div class="example">
+            <p class="h5 my-1">Example of badges on avatars</p>
+            <div class="example-live flex-space-evenly align-items-end p-2">
+              <nav class="navbarDummy">
+                <a href="#" class="logo h6 text-600">Dummy</a>
+                <ul class="nav-linksDummy">
+                  <li>
+                    <a href="#" class="nav-link">Home</a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link">Doc</a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link">Contact</a>
+                  </li>
+                </ul>
+                <div class="burger">
+                  <i class="fas fa-bars"></i>
+                </div>
+              </nav>
+            </div>
+            <div class="code">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28244%2C246%2C252%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=80px&wc=true&wa=false&pv=41px&ph=100px&ln=false&fl=1&fm=Hack&fs=11.5px&lh=250%25&si=false&es=2x&wm=false&code=%253Cnav%2520class%253D%2522navbar%2522%253E%250A%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522logo%2520h6%2520text-600%2522%253E%257BglitterCSS%253C%252Fa%253E%250A%2520%2520%253Cul%2520class%253D%2522nav-links%2522%253E%250A%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522nav-link%2522%253EHome%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522nav-link%2522%253EDoc%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522nav-link%2522%253EContact%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%253C%252Ful%253E%250A%2520%2520%253Cdiv%2520class%253D%2522burger%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-bars%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fnav%253E"
+                style="
+                  width: 64rem;
+                  height: 645px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-info">
+          <a href="#" class="logo h6 text-600">{glitterCSS</a>
+          <p class="text-md my-1 text-primary">
+            A CSS framework for building beautiful, responsive websites.
+          </p>
+          <div class="footer-contact">
+            <div>
+              <p class="text-lg">Email me at</p>
+              <p class="text-sm text-tertiary">iambiswanath@gmail.com</p>
+            </div>
+            <div>
+              <p class="text-lg">Call us</p>
+              <p class="text-sm text-tertiary">8906XXXXXX</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-info">
+          <p href="#" class="h6 text-600 text-primary">Lets Talk!</p>
+          <p class="text-md my-1 text-primary">
+            We are always up to discuss how we can improve. Feel free to reach
+            us with doubts and feedbacks.
+          </p>
+          <div class="footer-icon-container">
+            <a
+              href="https://www.facebook.com/tewari.biswanath00/"
+              class="btn-icon-secondary btn-icon-sm"
+              target="_blank"
+            >
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a
+              href="https://twitter.com/iambizan"
+              class="btn-icon-secondary btn-icon-sm"
+              target="_blank"
+            >
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/iambizan/"
+              class="btn-icon-secondary btn-icon-sm"
+              target="_blank"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/biswanathtewari/"
+              class="btn-icon-secondary btn-icon-sm"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-legal">
+        <p class="text-md text-tertiary">
+          © 2022 glitterCSS. All rights reserved.
+        </p>
+        <p class="text-md text-tertiary">Open source under the MIT License.</p>
+      </div>
+    </footer>
+    <script src="../../app.js"></script>
+    <script src="./sidebar.js"></script>
+  </body>
+</html>
+
+<!-- 
+  <section id="badge" class="w-100 my-1">
+          <p class="h2 text-600">Badge</p>
+          <p class="text-lg my-1">
+            Badges are being used to display a notification count or status
+            information.
+          </p>
+          <div class="example">
+            <p class="h5 my-1">Example of badges on avatars</p>
+            <div class="example-live flex-space-evenly align-items-end p-2">
+              
+              
+            </div>
+            <div class="code">
+              
+            </div>
+          </div>
+        </section>
+ -->
