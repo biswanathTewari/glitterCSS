@@ -24,6 +24,7 @@
   padding: 1rem;
   background-color: var(--secondary-color);
   border-radius: 3px;
+  position: relative;
 }
 
 .modal-card-header {
@@ -32,11 +33,12 @@
 }
 
 .modal-card-close {
-  margin-left: auto;
   color: inherit;
-  text-decoration: none;
-  margin-top: -0.5rem;
-  font-size: 2rem;
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
 }
 
 .modal-card-body {
