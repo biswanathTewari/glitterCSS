@@ -1,0 +1,30 @@
+.list li {
+  list-style: none;
+}
+
+.ordered-list li {
+  list-style: decimal;
+}
+
+.alpha-list li {
+  list-style: lower-alpha;
+}
+
+.unordered-list li {
+  list-style: circle;
+}
+
+.stacked-list li {
+  border: 1px solid var(--primary-color);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.list-container {
+  max-width: 20rem;
+}

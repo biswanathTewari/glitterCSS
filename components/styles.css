@@ -11,6 +11,10 @@
 @import "./input.css";
 @import "./navbar.css";
 @import "./footer.css";
+@import "./grid.css";
+@import "./toast.css";
+@import "./modal.css";
+@import "./list.css";
 
 @font-face {
   font-family: "logoFont";
@@ -38,6 +42,12 @@
   --button-color-darker-hover: #444657;
 
   --card-color: white;
+
+  --modal-background-color: rgba(0, 0, 0, 0.5);
+
+  --success-color: #28a745;
+  --danger-color: #dc3545;
+  --info-color: #17a2b8;
 
   --zindex-1: 1;
   --zindex-2: 2;

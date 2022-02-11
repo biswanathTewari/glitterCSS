@@ -1,0 +1,23 @@
+.toast {
+  position: fixed;
+  top: 1rem;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: var(--secondary-color);
+  z-index: 5;
+}
+
+.toast-success {
+  background-color: var(--success-color);
+}
+
+.toast-failed {
+  background-color: var(--danger-color);
+}
+
+.toast-info {
+  background-color: var(--info-color);
+}
