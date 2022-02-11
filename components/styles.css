@@ -11,6 +11,7 @@
 @import "./input.css";
 @import "./navbar.css";
 @import "./footer.css";
+@import "./toast.css";
 
 @font-face {
   font-family: "logoFont";
@@ -36,4 +37,8 @@
   --button-color-darker: #282938;
   --button-color-hover: #f8e1a0;
   --button-color-darker-hover: #444657;
+
+  --success-color: #28a745;
+  --danger-color: #dc3545;
+  --info-color: #17a2b8;
 }
