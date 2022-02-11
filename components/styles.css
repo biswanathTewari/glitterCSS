@@ -11,7 +11,12 @@
 @import "./input.css";
 @import "./navbar.css";
 @import "./footer.css";
+<<<<<<< HEAD
 @import "./toast.css";
+=======
+@import "./modal.css";
+@import "./list.css";
+>>>>>>> 81072d4dcd6724acdc4102cca580d947cba0afcb
 
 @font-face {
   font-family: "logoFont";
@@ -38,7 +43,11 @@
   --button-color-hover: #f8e1a0;
   --button-color-darker-hover: #444657;
 
+<<<<<<< HEAD
   --success-color: #28a745;
   --danger-color: #dc3545;
   --info-color: #17a2b8;
+=======
+  --modal-background-color: rgba(0, 0, 0, 0.5);
+>>>>>>> 81072d4dcd6724acdc4102cca580d947cba0afcb
 }
