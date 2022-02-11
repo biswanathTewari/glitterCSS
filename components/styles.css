@@ -11,6 +11,7 @@
 @import "./input.css";
 @import "./navbar.css";
 @import "./footer.css";
+@import "./modal.css";
 
 @font-face {
   font-family: "logoFont";
@@ -36,4 +37,6 @@
   --button-color-darker: #282938;
   --button-color-hover: #f8e1a0;
   --button-color-darker-hover: #444657;
+
+  --modal-background-color: rgba(0, 0, 0, 0.5);
 }
