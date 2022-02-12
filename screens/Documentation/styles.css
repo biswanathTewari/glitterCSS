@@ -59,8 +59,8 @@
   max-height: 25rem;
   width: 100%;
   overflow: auto;
-  /* display: flex;
-  justify-content: center; */
+  display: flex;
+  justify-content: center;
 }
 
 .btn-floating-action-dummy {
@@ -147,6 +147,10 @@
   .article {
     margin-top: 10vh;
     width: 100%;
+  }
+
+  .code {
+    display: inline-block;
   }
 
   /* ---sidebar--- */
