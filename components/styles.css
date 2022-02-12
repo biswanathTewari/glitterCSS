@@ -11,16 +11,10 @@
 @import "./input.css";
 @import "./navbar.css";
 @import "./footer.css";
-<<<<<<< HEAD
 @import "./grid.css";
-=======
-<<<<<<< HEAD
 @import "./toast.css";
-=======
 @import "./modal.css";
 @import "./list.css";
->>>>>>> 81072d4dcd6724acdc4102cca580d947cba0afcb
->>>>>>> c89f390250e23a6a7af632bbb1f57344cfa354ec
 
 @font-face {
   font-family: "logoFont";
@@ -47,11 +41,17 @@
   --button-color-hover: #f8e1a0;
   --button-color-darker-hover: #444657;
 
-<<<<<<< HEAD
+  --card-color: white;
+
+  --modal-background-color: rgba(0, 0, 0, 0.5);
+
   --success-color: #28a745;
   --danger-color: #dc3545;
   --info-color: #17a2b8;
-=======
-  --modal-background-color: rgba(0, 0, 0, 0.5);
->>>>>>> 81072d4dcd6724acdc4102cca580d947cba0afcb
+
+  --zindex-1: 1;
+  --zindex-2: 2;
+  --zindex-3: 3;
+  --zindex-4: 4;
+  --zindex-5: 5;
 }

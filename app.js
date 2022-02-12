@@ -1,9 +1,9 @@
+const body = document.querySelector("body");
+const html = document.querySelector("html");
 const burger = document.querySelector(".burger");
 const navlinks = document.querySelector(".nav-links");
 const linkWrappers = document.querySelectorAll(".nav-links li");
 const links = document.querySelectorAll(".nav-link");
-const body = document.querySelector("body");
-const html = document.querySelector("html");
 
 const toggleNav = () => {
   navlinks.classList.toggle("navlinks-active");

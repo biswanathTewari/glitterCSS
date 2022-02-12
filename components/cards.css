@@ -4,6 +4,7 @@
   max-width: 21rem;
   overflow: hidden;
   position: relative;
+  background-color: var(--card-color);
 }
 
 .card-horizontal {

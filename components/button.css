@@ -21,7 +21,7 @@
 
 .btn-primary-disabled {
   background-color: var(--button-color-light);
-  color: var(--secondary-color-dark);
+  color: var(--text-color-dark);
 }
 
 .btn-secondary {
@@ -35,7 +35,7 @@
 
 .btn-secondary-disabled {
   background-color: var(--button-color-dark);
-  color: var(--text-color);
+  color: var(--text-color-dark);
 }
 
 .btn-link {
@@ -45,7 +45,7 @@
 
 .btn-link:hover {
   text-decoration: none;
-  padding: 0.75rem 2.75rem;
+  padding: 0.5rem 2.5rem;
   border: 0.25rem solid #c7daff;
 }
 
@@ -85,5 +85,6 @@
 @media screen and (max-width: 768px) {
   .btn {
     font-size: 1rem;
+    min-width: 10rem;
   }
 }
