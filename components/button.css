@@ -38,6 +38,22 @@
   color: var(--text-color-dark);
 }
 
+.btn-transparent {
+  background-color: transparent;
+  color: var(--text-color);
+  font-weight: bolder;
+  padding: 0.45rem 2rem;
+  border: 0.1rem solid var(--text-color-dark);
+}
+
+.btn-transparent-dark {
+  background-color: transparent;
+  color: var(--primary-color);
+  font-weight: bolder;
+  padding: 0.45rem 2rem;
+  border: 0.1rem solid var(--primary-color);
+}
+
 .btn-link {
   text-decoration: underline;
   color: var(--primary-color);
