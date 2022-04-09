@@ -15,6 +15,7 @@
 @import "./toast.css";
 @import "./modal.css";
 @import "./list.css";
+@import "./rating.css";
 
 @font-face {
   font-family: "logoFont";

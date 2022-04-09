@@ -1,0 +1,8 @@
+.rating-star {
+  color: var(--text-color-dark);
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.rating-star:hover {
+  color: var(--tertiary-color);
+}
